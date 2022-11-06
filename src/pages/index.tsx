@@ -1,5 +1,5 @@
 import { type Component, createSignal, Show, createEffect } from 'solid-js';
-import { Layout } from '../components/shared/Layout.jsx';
+import { Layout } from '../components/shared/Layout';
 import homeGrid from "./../css/home/grid.module.css";
 import utils from "./../css/shared/utils.module.css";
 const Index: Component = () => {
@@ -25,7 +25,7 @@ const Index: Component = () => {
             <h1>Built on blocks, and otters</h1>
             <br />
             <p>
-              We’re a small team whose making Discord easier,
+              We’re a small team whose making Discord easier,              
               <br />
               more accessible, and more fun.
             </p>
