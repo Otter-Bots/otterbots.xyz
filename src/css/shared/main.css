@@ -1,7 +1,7 @@
 body {
     background-image: url("../../assets/backgrounds/mainBackground.svg");
     color: white;
-    background-size: fill;
+    background-size: cover;
 }
 a:link {
     color: white;
