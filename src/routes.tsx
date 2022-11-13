@@ -7,7 +7,7 @@ const routeArr: RouteDefinition[] = [
         component: lazy(() => import("./pages/")),
     },
     {
-        path: "*",
+        path: "/errors/404",
         component: lazy(() => import("./pages/errors/404")),
     }
 ]
