@@ -7,7 +7,7 @@ export function Layout(props:{ children: JSX.Element }) {
     <div class={grid.parent}>
       <div class={grid.div1}>
           <div class={utils.imageAllign}>
-              <img src="/src/assets/otterBots-Logo-Black.png" width={50} height={50}>Otter Bots</img>
+              <img src="https://assets.otterbots.xyz/website/otterBots-Logo-Black.png" width={50} height={50}>Otter Bots</img>
               <h2>Otter Bots</h2>
           </div>
       </div>
