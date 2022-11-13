@@ -1,2 +1,2 @@
 # otterbots.xyz
-The temporary Otter Bots site.
+The website. https://otterbots.xyz.

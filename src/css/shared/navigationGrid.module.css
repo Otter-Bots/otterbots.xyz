@@ -1,0 +1,31 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 0.25fr);
+    grid-template-rows: 0.25fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    top: 25px;
+    left: 0;
+}
+    
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+.div5 {
+    grid-area: 1 / 5 / 2 / 6;
+}
