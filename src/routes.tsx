@@ -9,6 +9,10 @@ const routeArr: RouteDefinition[] = [
     {
         path: "/errors/404",
         component: lazy(() => import("./pages/errors/404")),
+    },
+    {
+        path: "*",
+        component: lazy(() => import("./pages/errors/404")),
     }
 ]
 export const Routes = useRoutes(routeArr);
