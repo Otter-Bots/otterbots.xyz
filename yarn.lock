@@ -680,6 +680,11 @@ semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
+solid-dismiss@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/solid-dismiss/-/solid-dismiss-1.4.1.tgz#69a98574a367302154f72a8e58c9a88705035deb"
+  integrity sha512-y0Ix6f75XIvbsSsVdtRrMZkemcTJRuyzB0Go3f+bbq3iDE5PVTi8wcoq5A4AVwhQX6ua+0y8DkT6bM9ydkM9ZQ==
+
 solid-js@^1.5.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.6.1.tgz#1b6cd94151a859d9c186a1a3a61e99234a567c77"
