@@ -1,5 +1,6 @@
 body {
     color: white;
+    background-image: url("https://assets.otterbots.xyz/website/backgrounds/mainbackground.png");
 }
 a:link {
     color: white;
@@ -8,20 +9,4 @@ a:link {
 a:visited {
     color: white;
     text-decoration: none;
-}
-/* Fixing the background */
-@media screen and (min-width: 1081px) {
-    body {
-        background-image: url("https://assets.otterbots.xyz/website/backgrounds/mainbackground.png");
-        background-size: 1080px 1920px;
-        background-repeat: no-repeat;
-    }
-}
-@media screen and (max-width: 1080px) {
-    body {
-        background-image: url("https://assets.otterbots.xyz/website/backgrounds/mainbackground.png");
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
 }
