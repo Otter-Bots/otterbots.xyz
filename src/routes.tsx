@@ -11,6 +11,10 @@ const routeArr: RouteDefinition[] = [
         component: lazy(() => import("./pages/errors/404")),
     },
     {
+        path: "/bots/:bot",
+        component: lazy(() => import("./pages/bots")),
+    },
+    {
         path: "*",
         component: lazy(() => import("./pages/errors/404")),
     }

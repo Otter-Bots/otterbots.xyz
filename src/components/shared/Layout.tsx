@@ -2,7 +2,7 @@ import { JSX } from "solid-js";
 import grid from "../../css/shared/grid.module.css";
 import utils from "../../css/shared/utils.module.css";
 import navGrid from "../../css/shared/navigationGrid.module.css";
-export function Layout(props:{ children: JSX.Element }) {
+export function Layout(props:{ children: JSX.Element}) {
   return (
     <div class={grid.parent}>
       <div class={grid.div1}>
