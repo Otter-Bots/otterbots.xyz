@@ -1,6 +1,6 @@
 import { DiscordPerms } from "../../types/discordPerms";
 import botsGrid from "../../css/bots/grid.module.css";
-import botsInfotabs from "../../css/bots/botsinfotabs.module.css";
+import botsInfotabs from "../../css/bots/botsInfotabs.module.css";
 import utils from "../../css/shared/utils.module.css";
 import { createSignal, For, Match, Switch, Show } from "solid-js";
 const BotsLayout = (props: IBotsLayoutProps) => {
