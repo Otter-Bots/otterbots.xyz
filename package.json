@@ -19,5 +19,9 @@
     "@solidjs/router": "^0.5.0",
     "solid-dismiss": "^1.4.1",
     "solid-js": "^1.5.1"
+  },
+  "volta": {
+    "node": "18.12.1",
+    "yarn": "1.22.19"
   }
 }
