@@ -6,3 +6,6 @@
     margin-left: auto;
     margin-right: auto;
 }
+.invertImage {
+    filter: invert(100%);
+}
