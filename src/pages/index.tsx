@@ -17,9 +17,9 @@ const Index: Component = () => {
             <h1>Bots for everyday use</h1>
             <br />
             <p>
-              From starring your messages, to checking stock markets,
+              From starring your messages, to managing roles,
               <br />
-              or even your own custom-made hosted by us, we’ve got it.
+              or even your own custom-made bot hosted by us, we’ve got it.
             </p>
           </Show>
           <Show when={randNum() === 2}>
